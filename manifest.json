@@ -1,0 +1,47 @@
+{
+  "name": "bilatr theta trajectories",
+  "data_version": "v2026.11",
+  "release_date": "2026-11-04",
+  "built_for_bilatr": "1.0.0",
+  "description": "Yearly latent bilateral-relations trajectories (theta) for every country pair with at least one recorded event, 1991-2025, estimated with the R package bilatr from GDELT 1.0 event data. Higher theta means more cooperative relations.",
+  "license": "CC-BY-4.0",
+  "years": [1991, 2025],
+  "n_countries": 189,
+  "tables": {
+    "directed": {
+      "rows": 355821,
+      "dyads": 16750
+    },
+    "undirected": {
+      "rows": 195106,
+      "dyads": 9139
+    }
+  },
+  "columns": ["dyad", "year", "mean", "5%", "95%", "filtered_mean", "filtered_5%", "filtered_95%"],
+  "files": [
+    {
+      "name": "theta_directed.rds",
+      "bytes": 2297992,
+      "sha256": "f7e7d3901a2068d741bb26fb3cd451ef7afdc30383080bfe248344c44a6d49db",
+      "md5": "fdc143c2a981ce32dccfc9ff6360a525"
+    },
+    {
+      "name": "theta_undirected.rds",
+      "bytes": 1348072,
+      "sha256": "45b671119ee566872a823f490e0c3f98c135f82825afad3d0c8bf5a8fb173b95",
+      "md5": "2181cf6feb8edb62f2dd1f7cd40bc8ca"
+    },
+    {
+      "name": "theta_directed.csv.gz",
+      "bytes": 4278192,
+      "sha256": "367fe1ed0dec50ca6f0f1c47893b248a14f8e37a46dd448f8760cce9ba375bb3",
+      "md5": "546f9b6e6c575651b7d00e547434f73f"
+    },
+    {
+      "name": "theta_undirected.csv.gz",
+      "bytes": 2398979,
+      "sha256": "f3e3cac06100f1328e040ef9f7db519db80cb335d18feeedae6a37fdac77dfc1",
+      "md5": "ac62ae5dae63219011b3a397826fed9d"
+    }
+  ]
+}

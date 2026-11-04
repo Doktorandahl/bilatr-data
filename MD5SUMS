@@ -1,0 +1,9 @@
+31a7d00f38a39ed06a7e92e12c20d4bd  .zenodo.json
+98353f0a0af2b0aeb4eaba300f90c20f  CITATION.cff
+a34e00b682439875b5bc3bc4e60f6586  LICENSE
+473171aa4a6370e7894458276f5cc4d6  README.md
+36861ca902a01f8d69d72f870c25a84f  manifest.json
+546f9b6e6c575651b7d00e547434f73f  theta_directed.csv.gz
+fdc143c2a981ce32dccfc9ff6360a525  theta_directed.rds
+ac62ae5dae63219011b3a397826fed9d  theta_undirected.csv.gz
+2181cf6feb8edb62f2dd1f7cd40bc8ca  theta_undirected.rds

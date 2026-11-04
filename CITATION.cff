@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below."
+type: dataset
+title: "bilatr theta trajectories: latent bilateral relations, 1991-2025"
+version: "v2026.11"
+date-released: "2026-11-04"
+license: CC-BY-4.0
+repository-code: "https://github.com/doktorandahl/bilatr-data"
+url: "https://github.com/doktorandahl/bilatr"
+# doi: 10.5281/zenodo.XXXXXXX   (concept DOI; added once the Zenodo record exists)
+authors:
+  - family-names: "Randahl"
+    given-names: "David"
+    orcid: "https://orcid.org/0000-0003-1069-6067"
+  - family-names: "Lundgren"
+    given-names: "Magnus"
+    orcid: "https://orcid.org/0000-0002-9961-3645"
+  - family-names: "Vikberg"
+    given-names: "Carl"
+    orcid: "https://orcid.org/0000-0001-7523-9196"
+keywords:
+  - international relations
+  - event data
+  - GDELT
+  - bilateral relations
+references:
+  - type: conference-paper
+    title: "GDELT: Global Data on Events, Location and Tone, 1979-2012"
+    authors:
+      - family-names: "Leetaru"
+        given-names: "Kalev"
+      - family-names: "Schrodt"
+        given-names: "Philip A."
+    year: 2013
+    conference:
+      name: "International Studies Association Annual Convention"
+      city: "San Francisco"
