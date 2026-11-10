@@ -2,12 +2,16 @@ cff-version: 1.2.0
 message: "If you use these data, please cite them as below."
 type: dataset
 title: "bilatr theta trajectories: latent bilateral relations, 1991-2025"
-version: "v2026.11"
-date-released: "2026-11-04"
+version: "v2026.11.1"
+date-released: "2026-11-10"
 license: CC-BY-4.0
 repository-code: "https://github.com/doktorandahl/bilatr-data"
 url: "https://github.com/doktorandahl/bilatr"
-# doi: 10.5281/zenodo.XXXXXXX   (concept DOI; added once the Zenodo record exists)
+doi: 10.5281/zenodo.23951818
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23951818
+    description: "Concept DOI: all versions of the data release"
 authors:
   - family-names: "Randahl"
     given-names: "David"

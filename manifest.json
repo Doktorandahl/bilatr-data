@@ -1,47 +1,47 @@
 {
   "name": "bilatr theta trajectories",
-  "data_version": "v2026.11",
-  "release_date": "2026-11-04",
+  "data_version": "v2026.11.1",
+  "release_date": "2026-11-10",
   "built_for_bilatr": "1.0.0",
   "description": "Yearly latent bilateral-relations trajectories (theta) for every country pair with at least one recorded event, 1991-2025, estimated with the R package bilatr from GDELT 1.0 event data. Higher theta means more cooperative relations.",
   "license": "CC-BY-4.0",
   "years": [1991, 2025],
-  "n_countries": 189,
+  "n_countries": 192,
   "tables": {
     "directed": {
-      "rows": 355821,
-      "dyads": 16750
+      "rows": 365014,
+      "dyads": 17125
     },
     "undirected": {
-      "rows": 195106,
-      "dyads": 9139
+      "rows": 200061,
+      "dyads": 9342
     }
   },
-  "columns": ["dyad", "year", "mean", "5%", "95%", "filtered_mean", "filtered_5%", "filtered_95%"],
+  "columns": ["dyad", "year", "mean", "median", "5%", "95%", "filtered_mean", "filtered_median", "filtered_5%", "filtered_95%"],
   "files": [
     {
       "name": "theta_directed.rds",
-      "bytes": 2297992,
-      "sha256": "f7e7d3901a2068d741bb26fb3cd451ef7afdc30383080bfe248344c44a6d49db",
-      "md5": "fdc143c2a981ce32dccfc9ff6360a525"
+      "bytes": 4143672,
+      "sha256": "292bbf9fc04afb71763e19d71fef8c538f53491aa1755a37e65e3debdd62b650",
+      "md5": "71142151adbd3ae625e741ffcbc1775f"
     },
     {
       "name": "theta_undirected.rds",
-      "bytes": 1348072,
-      "sha256": "45b671119ee566872a823f490e0c3f98c135f82825afad3d0c8bf5a8fb173b95",
-      "md5": "2181cf6feb8edb62f2dd1f7cd40bc8ca"
+      "bytes": 2346508,
+      "sha256": "13318582b061c4796a52fb5891980dae561182e083335b25de1b0a8a26f71633",
+      "md5": "3eafbdfd6fc69170ed058253e164136a"
     },
     {
       "name": "theta_directed.csv.gz",
-      "bytes": 4278192,
-      "sha256": "367fe1ed0dec50ca6f0f1c47893b248a14f8e37a46dd448f8760cce9ba375bb3",
-      "md5": "546f9b6e6c575651b7d00e547434f73f"
+      "bytes": 6500468,
+      "sha256": "bd49ed86bf45ed813e8c835c02f228a283ca6b564b556230be56eaf47c2f79d1",
+      "md5": "8209bbe441704582a5ac0f09d3540538"
     },
     {
       "name": "theta_undirected.csv.gz",
-      "bytes": 2398979,
-      "sha256": "f3e3cac06100f1328e040ef9f7db519db80cb335d18feeedae6a37fdac77dfc1",
-      "md5": "ac62ae5dae63219011b3a397826fed9d"
+      "bytes": 3625795,
+      "sha256": "f524d83be43dc4f8c84dd6b83733f5b72725590f5194e400cf88263b89fd01aa",
+      "md5": "eeda9f746808b69116364684620b93cb"
     }
   ]
 }
