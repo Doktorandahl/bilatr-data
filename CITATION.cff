@@ -12,6 +12,9 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.23951818
     description: "Concept DOI: all versions of the data release"
+  - type: doi
+    value: 10.5281/zenodo.24109618
+    description: "Version DOI of data release v2026.11.1"
 authors:
   - family-names: "Randahl"
     given-names: "David"

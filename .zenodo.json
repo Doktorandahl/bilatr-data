@@ -1,0 +1,36 @@
+{
+  "upload_type": "dataset",
+  "title": "bilatr theta trajectories: latent bilateral relations, 1991-2025",
+  "version": "v2026.11.1",
+  "publication_date": "2026-11-10",
+  "description": "<p>Yearly latent trajectories (theta) of the level of bilateral relations for every country pair with at least one recorded event, 1991-2025, estimated with the R package bilatr from GDELT 1.0 event data. Higher theta means more cooperative relations. Directed (17,125 sender-receiver dyads) and undirected (9,342 pairs) tables, as R .rds and gzipped CSV files.<\/p><p>The tables cover 192 Correlates of War state system members, each in the years of its membership. Slovenia, Bosnia and Herzegovina, Kosovo and Montenegro are absent because GDELT 1.0 records no government events for them. GDELT provides no daily files for 24 days, most of them between 14 June and 1 July 2025 (the war between Israel and Iran), and 13 days in 1991-1995 have no events that pass the filters. See README.md.<\/p><p>This version replaces v2026.11, which lacked six states (Serbia, Romania, Timor-Leste, Bosnia and Herzegovina, Montenegro and Slovenia) because of a country-code crosswalk error; the first three are now included. It adds median columns and rounds all values to four decimal places.<\/p>",
+  "creators": [
+    {
+      "name": "Randahl, David",
+      "orcid": "0000-0003-1069-6067"
+    },
+    {
+      "name": "Lundgren, Magnus",
+      "orcid": "0000-0002-9961-3645"
+    },
+    {
+      "name": "Vikberg, Carl",
+      "orcid": "0000-0001-7523-9196"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["international relations", "event data", "GDELT", "CAMEO", "bilateral relations", "cooperation", "conflict", "item response theory", "Bayesian measurement model", "Stan"],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/doktorandahl/bilatr",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://gdeltproject.org/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}

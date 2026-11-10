@@ -52,7 +52,7 @@ All events are used, root events or not, except those with a Goldstein
 score between -1 and 1 (CAMEO codes 010-015, 017, 024x, 025x, 040 and
 041) and those with non-CAMEO event codes. Events are further restricted
 to those in which both countries are members of the Correlates of War
-state system (v2024) on the date of the event
+state system (v2024) in the year of the event
 (`bilatr::filter_gdelt_states()`), which removes GDELT's regional and other
 non-state codes.
 
@@ -61,7 +61,7 @@ dyad, a Dirichlet-multinomial likelihood over event classes, and
 country-level category offsets), at yearly resolution, with events grouped
 by bilatr's `ModifiedRootCode` scheme (16 of its 18 classes occur in the
 data, so A = 16), reference category 5 ("Consult: meet, discuss, or
-visit"), `min_n_events = 1`, and 4 chains of 1,000 warmup and 1,000
+visit"), `min_n_events = 1`, and 8 chains of 1,000 warmup and 1,000
 sampling iterations each. Because the model includes country-level
 category offsets, theta is measured net of each country's baseline mix of
 event types.
@@ -142,6 +142,9 @@ This release replaces `v2026.11`, which should no longer be used.
 - **Columns.** New `median` and `filtered_median` columns; all numeric
   columns are rounded to 4 decimal places (previously 3 significant
   digits).
+- **Sampling.** The models were refitted with 8 chains (seeds 101-108
+  directed, 201-208 undirected) instead of 4. Correction: the README
+  archived with the `v2026.11.1` tag says 4 chains, but the models used 8.
 
 ## License
 
@@ -152,12 +155,12 @@ adapt the data for any purpose, provided you give appropriate credit.
 
 Please cite the data release by the DOI of the version you use:
 
-- `v2026.11.1`: see the Zenodo record (the DOI is minted on release)
+- `v2026.11.1`: [doi:10.5281/zenodo.24109618](https://doi.org/10.5281/zenodo.24109618)
 - all versions: [doi:10.5281/zenodo.23951818](https://doi.org/10.5281/zenodo.23951818)
 
 Randahl, D., Lundgren, M. and Vikberg, C. (2026). bilatr theta
 trajectories: latent bilateral relations, 1991-2025. Data release
-v2026.11.1. Zenodo. <https://doi.org/10.5281/zenodo.23951818>
+v2026.11.1. Zenodo. <https://doi.org/10.5281/zenodo.24109618>
 
 Please also cite the bilatr package (`citation("bilatr")` in R). The
 underlying events are GDELT's; please also cite:
